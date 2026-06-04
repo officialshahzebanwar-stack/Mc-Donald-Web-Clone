@@ -1,237 +1,237 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>Contact Us</title>
+    ```
+    <title>Contact Us</title>
 
-<!-- Favicon -->
-<link rel="icon" href="img/logo.png">
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo.png">
 
-<style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+        .contact-container {
+            width: 100%;
+            max-width: 900px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .1);
+            border-top: 8px solid #ffbc0d;
+        }
 
-body{
-font-family:'Poppins',sans-serif;
-background:#f5f5f5;
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-padding:40px;
-}
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+        }
 
-.contact-container{
-width:100%;
-max-width:900px;
-background:white;
-border-radius:20px;
-padding:40px;
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-border-top:8px solid #ffbc0d;
-}
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
 
-h1{
-text-align:center;
-margin-bottom:20px;
-color:black;
-}
+        .contact-info {
+            margin-bottom: 30px;
+        }
 
-h2{
-text-align:center;
-margin-bottom:15px;
-}
+        .contact-info p {
+            margin: 10px 0;
+            color: #444;
+            font-size: 16px;
+        }
 
-.contact-info{
-margin-bottom:30px;
-}
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
-.contact-info p{
-margin:10px 0;
-color:#444;
-font-size:16px;
-}
+        label {
+            font-weight: 600;
+        }
 
-form{
-display:flex;
-flex-direction:column;
-gap:15px;
-}
+        input,
+        textarea {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+        }
 
-label{
-font-weight:600;
-}
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #ffbc0d;
+        }
 
-input,
-textarea{
-width:100%;
-padding:14px;
-border:2px solid #ddd;
-border-radius:10px;
-font-size:16px;
-}
+        button {
+            background: white;
+            color: black;
+            border: 2px solid black;
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .3s;
+        }
 
-input:focus,
-textarea:focus{
-outline:none;
-border-color:#ffbc0d;
-}
+        button:hover {
+            background: black;
+            color: white;
+        }
 
-button{
-background:white;
-color:black;
-border:2px solid black;
-padding:14px;
-border-radius:10px;
-font-size:16px;
-font-weight:600;
-cursor:pointer;
-transition:.3s;
-}
+        .developer-contact {
+            margin-top: 40px;
+        }
 
-button:hover{
-background:black;
-color:white;
-}
+        .developer-contact p {
+            color: #555;
+            line-height: 1.8;
+            text-align: center;
+        }
 
-.developer-contact{
-margin-top:40px;
-}
+        .developer-contact a {
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+        }
 
-.developer-contact p{
-color:#555;
-line-height:1.8;
-text-align:center;
-}
+        .developer-contact a:hover {
+            opacity: 0.8;
+        }
 
-.developer-contact a{
-color:black;
-text-decoration:none;
-font-weight:600;
-}
+        .developer-contact p a {
+            display: inline-block;
+        }
 
-.developer-contact a:hover{
-    opacity:0.8;
-}
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
 
-.developer-contact p a{
-    display:inline-block;
-}
-
-footer{
-margin-top:30px;
-text-align:center;
-padding-top:20px;
-border-top:1px solid #ddd;
-color:#666;
-}
-
-footer p{
-margin:8px 0;
-}
-
-</style>
+        footer p {
+            margin: 8px 0;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="contact-container">
+    <div class="contact-container">
 
-```
-<h1>Contact Us</h1>
+        ```
+        <h1>Contact Us</h1>
 
-<p style="text-align:center; margin-bottom:25px;">
-    We'd love to hear from you!
-</p>
+        <p style="text-align:center; margin-bottom:25px;">
+            We'd love to hear from you!
+        </p>
 
-<p style="text-align:center; color:#555; margin-bottom:30px;">
-    This project was created for educational and portfolio purposes.
-</p>
+        <p style="text-align:center; color:#555; margin-bottom:30px;">
+            This project was created for educational and portfolio purposes.
+        </p>
 
-<form>
+        <form>
 
-    <label>Name:</label>
-    <input type="text" placeholder="Enter your name" required>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
 
-    <label>Email:</label>
-    <input type="email" placeholder="Enter your email" required>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
 
-    <label>Message:</label>
-    <textarea rows="5" placeholder="Write your message here..." required></textarea>
+            <label>Message:</label>
+            <textarea rows="5" placeholder="Write your message here..." required></textarea>
 
-    <button type="submit">Send Message</button>
+            <button type="submit">Send Message</button>
 
-</form>
+        </form>
 
-<hr style="margin:40px 0; border:none; border-top:2px solid #eee;">
+        <hr style="margin:40px 0; border:none; border-top:2px solid #eee;">
 
-<section class="developer-contact">
+        <section class="developer-contact">
 
-    <h2>About the Developer</h2>
+            <h2>About the Developer</h2>
 
-    <p>
-        Hi, I'm Shahzeb. I'm currently learning Front-End Web Development
-        and building responsive websites using HTML, CSS, JavaScript,
-        Git, and GitHub.
-    </p>
+            <p>
+                Hi, I'm Shahzeb. I'm currently learning Front-End Web Development
+                and building responsive websites using HTML, CSS, JavaScript,
+                Git, and GitHub.
+            </p>
 
-    <br>
+            <br>
 
-    <p>
-        📧 Email:
-        <a href="mailto:official.shahzeb.anwar@gmail.com" target="_blank">
-            official.shahzeb.anwar@gmail.com
-        </a>
-    </p>
+            <p>
+                📧 Email:
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=official.shahzeb.anwar@gmail.com"
+                    target="_blank">
+                    official.shahzeb.anwar@gmail.com
+                </a>
+            </p>
 
-    <p>
-        💻 GitHub:
-        <a href="https://github.com/officialshahzebanwar-stack" target="_blank">
-            github.com/officialshahzebanwar-stack
-        </a>
-    </p>
+            <p>
+                💻 GitHub:
+                <a href="https://github.com/officialshahzebanwar-stack" target="_blank">
+                    github.com/officialshahzebanwar-stack
+                </a>
+            </p>
 
-</section>
+        </section>
 
-<footer>
+        <footer>
 
-    <p><strong>Developed by Shahzeb</strong></p>
+            <p><strong>Developed by Shahzeb</strong></p>
 
-    <p>
-        Educational Project • Not affiliated with McDonald's Corporation
-    </p>
+            <p>
+                Educational Project • Not affiliated with McDonald's Corporation
+            </p>
 
-</footer>
-```
+        </footer>
+        ```
 
-</div>
+    </div>
 
-<script>
+    <script>
 
-const form = document.querySelector("form");
+        const form = document.querySelector("form");
 
-form.addEventListener("submit", function(e){
+        form.addEventListener("submit", function (e) {
 
-    e.preventDefault();
+            e.preventDefault();
 
-    alert("Thank you! Your message has been received.");
+            alert("Thank you! Your message has been received.");
 
-    form.reset();
+            form.reset();
 
-});
+        });
 
-</script>
+    </script>
 
 </body>
+
 </html>
